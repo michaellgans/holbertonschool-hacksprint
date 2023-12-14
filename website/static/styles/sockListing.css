@@ -3,32 +3,75 @@
 /* Card for Sock Listing */
 .sockListing {
   display: flex;
-  flex-direction: column;
-  /* align-items: center; */
-  padding: 6px;
-  border-radius: 5px;
-  background-color: red;
-  /* height: 400px; */
-  width: 300px;
+    flex-direction: column;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: white;
+    /* height: 400px; */
+    width: 300px;
 }
+
+.sockListing:hover {
+  box-shadow: 5px 5px 5px lightgrey;
+  border: 1px solid;
+  border-color: lightgray;
+}
+
 .sockImage {
-  background-color: white;
+  background-color: whitesmoke;
   padding: 20px 20px 30px 30px;
   border-radius: 5px;
   height: 300px;
 }
+
+@font-face{
+  font-family: coolvetica;
+  src: url('../fonts/coolvetica\ rg.otf')
+}
+
+@font-face{
+  font-family: coolvetica2;
+  src: url('../fonts/coolvetica\ condensed\ rg.otf')
+}
+
 .sockName {
   font-size: large;
-  /* justify-content: flex-start; */
+  font-family: coolvetica;
 }
+
 .priceContainer {
   display: flex;
   flex-direction: row;
 }
+
+.sockPrice {
+  font-family: coolvetica2;
+  color: grey;
+}
+
+.sockNewPrice{
+  font-family: coolvetica2;
+}
+
+.sockDiscount {
+  font-family: coolvetica2;
+  color: green;
+}
+
 .colorOptions {
   display: flex;
   flex-direction: row;
-  padding: 5px;
-  justify-content: flex-start;
-  margin-right: auto;
+  margin-top: 5px;
+}
+
+#red {
+  color: red;
+  rotate: 45deg;
+  margin-right: 5px;
+}
+
+#green {
+  color: green;
+  rotate: 45deg;
+  margin-right: 5px;
 }
