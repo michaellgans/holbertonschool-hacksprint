@@ -9,6 +9,7 @@
     background-color: white;
     /* height: 400px; */
     width: 300px;
+    margin: 6px;
 }
 
 .sockListing:hover {

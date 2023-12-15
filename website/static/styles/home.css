@@ -1,0 +1,31 @@
+/* Styling for Home Page Body */
+
+@font-face {
+    font-family: letItSnow;
+    src: url('../fonts/Polar\ Snow.otf')
+}
+
+@font-face{
+    font-family: coolvetica;
+    src: url('../fonts/coolvetica\ rg.otf')
+}
+
+.popularSocks, .allSocks{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    flex-wrap: wrap;
+    max-width: 80%;
+}
+
+h1 {
+    font-family: letItSnow;
+    text-align: center;
+    font-size: 5rem;
+    color: darkred;
+}
+
+h2 {
+    font-family: coolvetica;
+    font-size: 3rem;
+}

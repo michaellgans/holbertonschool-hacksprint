@@ -1,0 +1,21 @@
+/* Style Sheet for Header */
+
+header {
+    /* display: flex; */
+}
+
+.logo {
+    height: 45px;
+    display: flex;
+}
+
+.logo img {
+    border-radius: 50%;
+    margin-right: 5px;
+    height: 45px;
+}
+
+.logoLink {
+    display: inline-block;
+    height: 45px;
+}
