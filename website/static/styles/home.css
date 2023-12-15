@@ -15,7 +15,7 @@
     align-items: center;
     padding: 6px;
     flex-wrap: wrap;
-    max-width: 80%;
+    /* max-width: 77%; */
 }
 
 h1 {
@@ -28,4 +28,23 @@ h1 {
 h2 {
     font-family: coolvetica;
     font-size: 3rem;
+}
+
+.checkoutContainer{
+    display: flex;
+    /* min-width: fit-content; */
+    background-color: whitesmoke;
+    padding: 6px;
+}
+
+.socksContainer{
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+}
+
+.fullPage{
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
 }

@@ -1,0 +1,70 @@
+/* Styling for Checkout */
+
+.cartContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    /* padding: 6px; */
+    background-color: white;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+}
+
+.cartHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 6px;
+    /* background-color: orange; */
+}
+
+.cartItem {
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid lightgrey;
+    background-color: whitesmoke;
+}
+
+.itemDescription {
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    /* background-color: greenyellow; */
+}
+
+.itemPicture img {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 50px;
+}
+
+.itemNumber {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 6px 6px 0px;
+}
+
+.itemIcons {
+    display: flex;
+    flex-direction: row;
+    /* background-color: blue; */
+}
+
+#trashIcon {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding-left: 100px;
+    align-items: center;
+}
+
+.cartFooter {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-items: center;
+    padding: 6px;
+}
