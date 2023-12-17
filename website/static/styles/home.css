@@ -22,6 +22,7 @@ h1 {
     font-family: letItSnow;
     text-align: center;
     font-size: 5rem;
+    -webkit-text-stroke: 1px darkslategrey;
     color: red;
 }
 
