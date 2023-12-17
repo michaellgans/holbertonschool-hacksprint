@@ -19,3 +19,19 @@ header {
     display: inline-block;
     height: 45px;
 }
+
+.cartIcon {
+    display: grid;
+    color: grey;
+    align-self: center;
+    padding-left: 6px;
+    /* width: 100%; */
+}
+
+.cartIcon:hover {
+    color: lightgray;
+}
+
+.cartIcon:active {
+    color: darkslategrey;
+}
