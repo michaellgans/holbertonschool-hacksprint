@@ -20,9 +20,24 @@
 
 .sockImage {
   background-color: whitesmoke;
-  padding: 20px 20px 30px 30px;
+  padding: 20px 30px 20px 30px;
   border-radius: 5px;
   height: 300px;
+}
+
+.sockImageWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.addToCart {
+  align-self: flex-end;
+  margin-bottom: -33px;
+  padding-top: 6px;
+}
+
+.addToCart:hover {
+  background-color: aqua;
 }
 
 @font-face{
