@@ -1,3 +1,4 @@
+# this is the most recent update
 from flask import Blueprint, render_template, request, flash, redirect, url_for
 from .models import User
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -9,6 +10,8 @@ auth = Blueprint('auth', __name__)
 
 @auth.route('/login', methods=['GET', 'POST'])
 def login():
+    if current_user.is_authenticated:
+        return redirect(url_for('views.home'))
     if request.method == 'POST':
         email = request.form.get('email')
         password = request.form.get('password')
