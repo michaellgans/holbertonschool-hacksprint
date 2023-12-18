@@ -1,0 +1,19 @@
+/* Styling for the order complete page */
+
+#orderContainer {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dogImage img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#orderContainer h2 {
+    text-align: center;
+}

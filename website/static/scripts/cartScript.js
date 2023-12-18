@@ -2,6 +2,7 @@
 $(document).ready(function () {
   /* Grab numbers from HTML */
   let price1 = $('#price1').text().replace('$', '');
+  
   let itemQuantity = $('#itemQuantity').text();
   let price2 = $('#price2').text().replace('$', '');
 
