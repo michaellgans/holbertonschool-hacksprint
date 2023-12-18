@@ -1,7 +1,8 @@
 /* Style Sheet for Header */
 
 header {
-    /* display: flex; */
+    width: 100%;
+    position: fixed;
 }
 
 .logo {
