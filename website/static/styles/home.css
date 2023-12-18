@@ -82,3 +82,8 @@ footer {
 footer > svg {
     margin: 0px 20px;
 }
+
+/* fix this */
+#footerIcon1:hover, #footerIcon2, #footerIcon3, #footerIcon4, #footerIcon5 {
+    color: aqua;
+}
