@@ -92,3 +92,8 @@
     justify-items: center;
     padding: 6px;
 }
+
+#orderComplete {
+    display: flex;
+    justify-content: center;
+}
