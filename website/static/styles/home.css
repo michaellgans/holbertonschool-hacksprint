@@ -79,11 +79,28 @@ footer {
     background-color: #343a40;
 }
 
-footer > svg {
-    margin: 0px 20px;
+#footerIcon1,
+#footerIcon2,
+#footerIcon3,
+#footerIcon4,
+#footerIcon5 {
+    margin: 0px 10px;
+    color: white;
 }
 
 /* fix this */
-#footerIcon1:hover, #footerIcon2, #footerIcon3, #footerIcon4, #footerIcon5 {
-    color: aqua;
+#footerIcon1:hover,
+#footerIcon2:hover,
+#footerIcon3:hover,
+#footerIcon4:hover,
+#footerIcon5:hover {
+    color: grey;
+}
+
+#footerIcon1:active,
+#footerIcon2:active,
+#footerIcon3:active,
+#footerIcon4:active,
+#footerIcon5:active {
+    color: lightgray;
 }
