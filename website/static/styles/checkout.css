@@ -10,13 +10,21 @@
     src: url('../fonts/coolvetica\ condensed\ rg.otf')
 }
 
+#cart:hover, #close:hover, #plus:hover, #minus:hover, #trashIcon:hover {
+    color: slategray;
+}
+
+#cart:active, #close:active, #plus:active, #minus:active, #trashIcon:active {
+    color: green;
+}
+
 .cartContainer {
     display: flex;
     flex-direction: column;
     background-color: white;
     border: 2px solid lightgrey;
     border-radius: 5px;
-    margin: 10px 300px;
+    margin: 10px;
 }
 
 .cartHeader {
@@ -59,6 +67,11 @@
     padding: 6px 6px 6px 0px;
 }
 
+#itemQuantity {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .itemIcons {
     display: flex;
     flex-direction: row;
@@ -68,8 +81,8 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
-    padding-left: 310px;
     align-items: center;
+    padding-left: 6px;
 }
 
 .cartFooter {
