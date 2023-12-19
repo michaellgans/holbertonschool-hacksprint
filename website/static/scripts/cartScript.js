@@ -16,7 +16,7 @@ $(document).ready(function () {
 
   /* Add one quantity to the cart */
   add.on('click', function() {
-    price1 += 15;
+    price1 += 14.25;
     itemQuantity += 1;
     let updatePrice1 = $('#price1');
     let updateQuantity = $('#itemQuantity');
@@ -31,7 +31,7 @@ $(document).ready(function () {
   });
 
   subtract.on('click', function() {
-    price1 -= 15;
+    price1 -= 14.25;
     itemQuantity -= 1;
     let updatePrice1 = $('#price1');
     let updateQuantity = $('#itemQuantity');
