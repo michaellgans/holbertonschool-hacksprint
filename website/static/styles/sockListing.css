@@ -93,3 +93,21 @@
   rotate: 45deg;
   margin-right: 5px;
 }
+
+#blue {
+  color: blue;
+  rotate: 45deg;
+  margin-right: 5px;
+}
+
+#lightBlue {
+  color: lightblue;
+  rotate: 45deg;
+  margin-right: 5px;
+}
+
+#brown {
+  color: burlywood;
+  rotate: 45deg;
+  margin-right: 5px;
+}
