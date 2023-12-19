@@ -19,9 +19,9 @@
 }
 
 .sockImage {
-  background-color: whitesmoke;
+  background-color: #d7dff1;
   padding: 20px 30px 20px 30px;
-  border-radius: 5px;
+  border-radius: 10px;
   height: 300px;
 }
 
@@ -53,26 +53,30 @@
 }
 
 .sockName {
-  font-size: large;
+  font-size: x-large;
   font-family: coolvetica;
 }
 
 .priceContainer {
   display: flex;
   flex-direction: row;
+  align-items: baseline;
 }
 
 .sockPrice {
   font-family: coolvetica2;
   color: grey;
+  font-size: larger;
 }
 
 .sockNewPrice{
   font-family: coolvetica2;
+  font-size: larger;
 }
 
 .sockDiscount {
   font-family: coolvetica2;
+  font-size: x-large;
   color: green;
 }
 
