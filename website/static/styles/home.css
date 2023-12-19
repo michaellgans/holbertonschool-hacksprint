@@ -26,6 +26,7 @@
 .popularSocks, .allSocks{
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     padding: 6px;
     flex-wrap: wrap;
 }
@@ -35,9 +36,7 @@ h1 {
     font-size: 5rem;
     -webkit-text-stroke: 1.5px darkslategrey;
     background-color: rgba(255, 255, 255, 0.7);
-    /* padding-top: 60px; */
-    color: red;
-    /* display: inline-block;*/
+    color: #dc0000;
 }
 
 .centerMe {
@@ -52,7 +51,6 @@ h2 {
 
 .checkoutContainer{
     display: flex;
-    /* min-width: fit-content; */
     background-color: whitesmoke;
     padding: 6px;
 }
@@ -60,13 +58,16 @@ h2 {
 .socksContainer{
     display: flex;
     flex-direction: column;
-    /* background-color: blue; */
+}
+
+.socksContainer h2 {
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 .fullPage{
     display: flex;
     flex-direction: row;
-    /* background-color: aqua; */
 }
 
 footer {
