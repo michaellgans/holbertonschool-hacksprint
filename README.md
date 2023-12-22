@@ -2,9 +2,19 @@
 # Hacksprint
 
 ❄️ Hello! ❄️<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Welcome to our Hacksprint!  The theme for our project was winter, so we decided to create an eCommerce web application to sell winter themed socks.  We're working on hosting this website, but for now, please follow these instructions. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Welcome to our Hacksprint!  The theme for our project was winter, so we decided to create an eCommerce web application to sell winter themed socks.  We're working on hosting this website, but for now, please follow these instructions. <br><br>
 Thanks! <br>
 Michael & Kier
+
+<div>
+    <a href="https://www.loom.com/share/27305bdd4d834675871cb811129630a0">
+      <p>Loom Message - 19 December 2023 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/27305bdd4d834675871cb811129630a0">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/27305bdd4d834675871cb811129630a0-with-play.gif">
+    </a>
+  </div>
+https://www.youtube.com/watch?v=Y8DuHmUjdpQ&t=3s
 
 ## Requirements
 This is a flask application.  Please ensure flask is installed!<br>
