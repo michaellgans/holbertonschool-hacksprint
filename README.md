@@ -8,13 +8,12 @@ Michael & Kier
 
 <div>
     <a href="https://www.loom.com/share/27305bdd4d834675871cb811129630a0">
-      <p>Loom Message - 19 December 2023 - Watch Video</p>
+      <p>Watch Video</p>
     </a>
     <a href="https://www.loom.com/share/27305bdd4d834675871cb811129630a0">
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/27305bdd4d834675871cb811129630a0-with-play.gif">
     </a>
   </div>
-https://www.youtube.com/watch?v=Y8DuHmUjdpQ&t=3s
 
 ## Requirements
 This is a flask application.  Please ensure flask is installed!<br>
