@@ -41,6 +41,10 @@ SQLAlchemy                2.0.22 <br>
 ![image](https://github.com/michaellgans/holbertonschool-hacksprint/assets/131380667/e97662f8-e3c2-4839-934d-5e74f4111276) <br>
 - Enjoy!
 
+## Challenges
+This was our T2 Hacksprint where we were challenged to create an MVP, a Minimum Viable Product.  We had two weeks to create something that worked and at a minimum we wanted to create a static frontend inspired by bombas.  Kier and I went above and beyond by incorperating a functioning backend before we knew what a backend even was.<br>
+Looking back on this now, I'm so proud of us.  We had barely understood what HTML and CSS were but we were able to push this far!  In the future, I'd like to remake this at my current programming level.
+
 ## Prototypes
 ![image](https://github.com/michaellgans/holbertonschool-hacksprint/assets/131380667/09cef68d-5eb9-46e5-96ef-49609e60e8a3)
 
@@ -79,3 +83,7 @@ SQLAlchemy                2.0.22 <br>
 ![image](https://github.com/michaellgans/holbertonschool-hacksprint/assets/131380667/94b285b6-3b8a-4329-8823-dc3506fd4029)
 ![image](https://github.com/michaellgans/holbertonschool-hacksprint/assets/131380667/a264ee79-49a8-4481-8d87-c8504d041eb0)
 
+### About the Author
+Michael L. Gans is a Full Stack Software Engineer who studied at Atlas School in Tulsa, Oklahoma.  He graduated Summa Cum Laude from Sam Houston State University with Honors and has a certification in Six Sigma.  Michael strives to never stop learning and never stop asking why!
+<br>
+Reach out to him at [LinkedIn](https://www.linkedin.com/in/michaellgans/)
